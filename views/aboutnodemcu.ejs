@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About NODE MCU</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="\css\style.css">
+  </head>
+  <body>
+    <%- include("header.ejs") %>
+    <div class="container col-xxl-8 px-4 mt-5 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="/images/nodemcu.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About NODE MCU</h1>
+            <p class="lead">NodeMCU is an open-source LUA based firmware developed
+              for the ESP8266 wifi chip. By exploring functionality with the
+              ESP8266 chip, NodeMCU firmware comes with the ESP8266
+              Development board/kit i.e. NodeMCU Development board. </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">NodeMCU ESP 8266 Technical Specifications and features:</h1>
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <p class="lead">
+              ▪ Wireless Module ESP8266:With wireless connectivity for Internet of
+              Things applications, the ESP8266 Wi-Fi module is the brains behind
+              NodeMCU
+            </p>
+          </li>
+          <li class="nav-item">
+            <p class="lead">
+              ▪ Unit of Microcontroller (MCU):A 32-bit Tensilica L106
+              microprocessor is part of the ESP-12E/F module. 
+            </p>
+          </li>
+          <li class="nav-item">
+            <p class="lead">
+              ▪ Speicher Flash: The firmware and user programs are stored in the 4MB
+              of flash memory that Node MCU normally ships with. 
+            </p>
+          </li>
+          <li class="nav-item">
+            <p class="lead">
+              ▪ GPIO Pins: General Purpose Input/Output Many GPIO pins on the
+              NodeMCU can be utilized for a variety of purposes, including digital
+              input/output, analog input, PWM (Pulse Width Modulation), I2C, SPI,
+              and more. 
+            </p>
+          </li>
+          <li class="nav-item">
+            <p class="lead">
+              ▪ ADC, or analog-to-digital converter: It has an ADC that enables the
+              board to read values from analog sensors. 
+            </p>
+          </li>
+          <li class="nav-item">
+            <p class="lead">
+              ▪ USB to TTL Convertor: The USB-TTL converter that Node MCU
+              incorporates makes it simple to connect the board to a computer for
+              programming and troubleshooting. USB connector included in, There is
+              a on the Node MCU board. 
+            </p>
+          </li>
+          <li class="nav-item">
+            <p class="lead">
+              ▪ Firmware for Node MCU: For the ESP8266, the Node MCU firmware
+              offers a straightforward and user-friendly programming interface. 
+            </p>
+          </li>
+          <li class="nav-item">
+            <p class="lead">
+              ▪  IDE Compatibility for Arduino: The Arduino IDE may be used to
+              program NodeMCU, making it available to a wide range of Arduino
+              developers. 
+            </p>
+          </li>
+          <li class="nav-item">
+            <p class="lead">
+              ▪ Open-Source Hardware: The design files for Node MCU, an opensource hardware platform, are accessible to everyone. 
+            </p>
+          </li>
+          <li class="nav-item">
+            <p class="lead">
+              ▪  Community Assistance: With Node MCU, there is a sizable and
+              vibrant developer and maker community that offers assistance, guides,
+              and a plethora of resources 
+            </p>
+          </li>
+          <li class="nav-item">
+            <p class="lead">
+              ▪  Low Price: Because Node MCU boards are typically inexpensive,
+              hobbyists and developers on a tight budget often choose them. 
+            </p>
+          </li>
+          </ul>  
+
+          <h1 class="mt-3 display-5 fw-bold text-body-emphasis lh-1 mb-3">NodeMCU ESP8266 Pinout and Functions
+            Explained</h1>
+            <img class="d-block mx-auto mb-4" src="/images/pinout.png" alt="" width="450px" height="450px">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <p class="lead">
+                  ▪Power: The NodeMCU development board is a popular platform for IoT
+                  (Internet of Things) projects, and it is based on the ESP8266 WiFi module.
+                  Usually, the NodeMCU board has multiple pins for connections pertaining to
+                  power. 
+                </p>
+              </li>
+              <li class="nav-item">
+                <p class="lead">
+                  ▪12C: The following are the default I2C pins on the NodeMCU ESP8266
+                  boardI2C devices are frequently connected to the ESP8266 via these pins.
+                  Make sure the SDA and SCL pins on your I2C device are connected
+                  correctly if you are using it. For I2C communication, don't forget to include
+                  the Wire library in your Arduino sketch. 
+                </p>
+              </li>
+              <li class="nav-item">
+                <p class="lead">
+                  ▪SPI: The ESP8266 microcontroller, including the NodeMCU development
+                  board, supports SPI (Serial Peripheral Interface) for communication with
+                  other devices. SPI is a synchronous serial communication protocol
+                  commonly used to communicate with sensors, displays, and other
+                  peripherals. 
+                </p>
+              </li>
+              <li class="nav-item">
+                <p class="lead">
+                  ▪SD Card: An SD card module typically includes an SD card slot and a
+                  microcontroller that communicates with the ESP8266 through SPI (Serial
+                  Peripheral Interface) communication. This module allows you to read and
+                  write data to an SD card, providing a convenient way to add storage to your
+                  ESP8266 projects. 
+                </p>
+              </li>
+              <li class="nav-item">
+                <p class="lead">
+                  ▪PWM: The ESP8266, including the NodeMCU development board, supports
+                  PWM (Pulse Width Modulation), which allows you to simulate analog output
+                  by varying the duty cycle of a digital signal. On the ESP8266, you can use
+                  the analogWrite() function to generate PWM signals on certain pins. 
+                </p>
+              </li>
+              <li class="nav-item">
+                <p class="lead">
+                  ▪GND: The Ground (GND) pins on the ESP8266, including the NodeMCU
+                  development board, are the pins that provide the reference voltage for the
+                  board and complete electrical circuits. Each of the GPIO (General Purpose
+                  Input/Output) pins on the ESP8266 has a corresponding GND pin for ground
+                  connection. 
+                </p>
+              </li>
+              <li class="nav-item">
+                <p class="lead">
+                  ▪ADC: The ESP8266, including the NodeMCU development board, has an
+                  Analogto-Digital Converter (ADC) that allows you to read analog signals.
+                  The ESP8266 ADC is capable of reading analog voltages in the range of 0 to
+                  1.0V.  
+                </p>
+              </li>
+              <li class="nav-item">
+                <p class="lead">
+                  ▪GPIO: The ESP8266, including the NodeMCU development board, has
+                  GeneralPurpose Input/Output (GPIO) pins that you can use for various
+                  purposes such as digital input or output, PWM (Pulse Width Modulation),
+                  and more. GPIO pins are versatile and can be configured for different
+                  functionalities in your ESP8266 projects. 
+                </p>
+              </li>
+              <li class="nav-item">
+                <p class="lead">
+                  ▪UART: The ESP8266, including the NodeMCU development board, has
+                  UART (Universal Asynchronous Receiver/Transmitter) functionality,
+                  allowing communication over serial ports. The ESP8266 typically has two
+                  hardware
+                  UARTs: UART0 and UART1. UART0 is commonly used for programming
+                  and debugging, while UART1 is often available for general-purpose
+                  communication.  
+                </p>
+              </li>
+              <li class="nav-item">
+                <p class="lead">
+                  ▪Reserved: the NodeMCU development board, typically refers to certain pins
+                  or features that have specific functions or limitations imposed by the
+                  hardware design or the firmware. These reserved pins or features may have
+                  special purposes or characteristics that differentiate them from generalpurpose GPIO (GeneralPurpose Input/Output) pins. 
+                </p>
+              </li>
+
+              </ul>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

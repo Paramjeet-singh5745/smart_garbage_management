@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Components</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="\css\style.css">
+  </head>
+  <body>
+    <%- include("header.ejs") %>
+    <div class="container px-4 mt-5 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <p class="lead">
+                        ▪ Software
+                      </p>
+                    </li>
+                    <li class="nav-item">
+                      <p class="lead">
+                        1. MIT app inventor 
+                      </p>
+                    </li>
+                    <li class="nav-item">
+                      <p class="lead">
+                        2. Arduino IDE 
+                      </p>
+                    </li>
+                    <li class="nav-item">
+                      <p class="lead">
+                        3. Google FireBase
+                      </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Components</h1>
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <p class="lead">
+                        ▪ There are basic components of our project :
+                      </p>
+                    </li>
+                    <li class="nav-item">
+                      <p class="lead">
+                        ▪ Hardware
+                      </p>
+                    </li>
+                    <li class="nav-item">
+                      <p class="lead">
+                        1. Node MCU ESP8266 
+                      </p>
+                    </li>
+                    <li class="nav-item">
+                      <p class="lead">
+                        2. Breathboard 
+                      </p>
+                    </li>
+                    <li class="nav-item">
+                      <p class="lead">
+                        3. IR Sensor
+                      </p>
+                    </li>
+                    <li class="nav-item">
+                      <p class="lead">
+                        4. Jumper Wires 
+            
+                      </p>
+                    </li>
+                    <li class="nav-item">
+                      <p class="lead">
+                        5. UltraSonic Sensor 
+                      </p>
+                    </li>
+                    <li class="nav-item">
+                      <p class="lead">
+                        6. Servo Motor 
+                      </p>
+                    </li>
+                    <li class="nav-item">
+                      <p class="lead">
+                        7. Dustbin
+                      </p>
+                    </li>
+                    </ul>
+              
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="row featurette">
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="\images\nodemcu.png"/>
+                </div>
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="\images\ultrasonic.png"/>
+                </div>
+            </div>
+            <div class="row featurette">
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="\images\irsensor.png"/>
+                </div>
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="\images\wire.jpg"/>
+                </div>
+            </div>
+            <div class="row featurette">
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="\images\motor.png"/>
+                </div>
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500px" height="100px" src="\images\dust.png"/>
+                </div>
+            </div>
+            <div class="row featurette">
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="\images\mit.jpg"/>
+                </div>
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="\images\arduino.png"/>
+                </div>
+            </div>
+            <div class="row featurette">
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="\images\firebase.png"/>
+                </div>
+            </div>
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">IR Sensor </h1>
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <p class="lead">
+                        ▪ This model, Smart Waste Management System (SWM) effectively
+                        employs IR sensor to identify dry waste items, and capacitive soil
+                        moisture sensor along with IR sensor to differentiate between dry and
+                        wet wastes.  
+                    </p>
+                </li>
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Servo Motor  </h1>
+                <li class="nav-item">
+                  <p class="lead">
+                    ▪ The servo motor is used to open and close the dustbin automatically,
+                    providing a more convenient and hygienic way of disposing of garbage.
+                    The system is connected to the internet using Node mcu and is
+                    controlled remotely using the Webserver Platform. 
+                  </p>
+                </li>
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">UltraSonic Sensor   </h1>
+                <li class="nav-item">
+                  <p class="lead">
+                    ▪ Ultrasonic sensor is a device that uses sound waves beyond the range
+                    of human hearing (ultrasonic waves) to measure distance, detect
+                    objects, or create images of surroundings. It typically consists of a
+                    transmitter that emits ultrasonic pulses and a receiver that detects the
+                    reflected waves, allowing the sensor to calculate distances based on the
+                    time taken for the waves to travel to an object and back. Ultrasonic
+                    sensors are commonly used in various applications, including
+                    proximity sensing, object
+                    detection, and navigation
+                    systems.
+                  </p>
+                </li>
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Bread Board: </h1>
+                <li class="nav-item">
+                  <p class="lead">
+                    ▪ A breadboard is a prototyping tool
+                    used in electronics to build and test circuits without soldering. It allows for
+                    quick and temporary connections of electronic components, facilitating
+                    experimentation, testing, and the development of prototypes. Breadboards are
+                    widely used by hobbyists, students, and engineers for designing and
+                    troubleshooting circuits before
+                    finalizing them on a more permanent
+                    platform
+                  </p>
+                </li>
+                </ul>
+        </div>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>

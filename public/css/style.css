@@ -1,0 +1,23 @@
+
+.navbar{
+    width: 100vw;
+}
+.video{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+video{
+    width: 100vw;
+    height: 500px;
+}
+.smart{
+    text-align: center;
+    margin: auto;
+    color: rgb(79, 239, 47);
+}
+.sliderimg{
+    height: 700px;
+    width: 100%;
+}
